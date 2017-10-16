@@ -1,0 +1,67 @@
+---
+title: "Phage and bacteria coevolution experiment"
+author: "Daniel Padfield"
+output:
+  html_document:
+    self_contained: yes
+  pdf_document: default
+---
+
+## Introduction
+
+Host-parasite antagonistic coevolution, where host defence and parasite counter-defence evolve reciprocally, is theoretically crucial to a range of ecological and evolutionary processes (e.g. population dynamics, extinction risk, the evolution of speciation, diversity pathogen virulence). One area that has received less attention is the how host-parasite coevolution impacts invasibility.
+
+Coevolution of host and parasite has the potential to increase or decrease invasibility, depending on the mode of selection, whether the invader or host (or both) have a coevolved parasite. Here, we use coevolution between the model bacterium _Pseudomonas fluorescens_ (SBW25) and bacteriophage  $SBW25\phi2$ to test for the impact of host-parasite coevolution on susceptibility to, and potential for, invasion. Previous work (Gomez _et al._ 2011) has found fluctuating selection to occur in this soil system using the same focal species, where bacteria were more resistant to their contemporary phage and the phage had lower infectivity to their contemporary bacteria. Such dynamics could cause a reduction in invasibility, because the invader would be susceptible to the phage and thus their fitness could be reduced in the short-term. In the instances where the invader brings the phage, these predictions would be reversed.
+
+## Experimental setup
+
+A _lacZ_ strain and wild type (WT) strain of _P. fluorescens_ SBW25 will be inoculated into 48 replicate sterile soil microcosms (10 cm x 10 cm petri dishes). Half of the microcosms (24, 12 lacZ and 12 WT) will be inoculated with lytic bacteriophage ($SBW25\phi2$) in a fully factorial design. This gives us 12 WT with phage, 12 WT without phage, 12 _lacZ_ with phage and 12 _lacZ_ without phage.
+
+Once we have identified fluctuating evolutionary dynamics (hopefully ~12-14 days), we will invade communities (with and without coevolved phage) with a _P. fluorescens_ to see how coevolution with a parasite effects invasibility. 
+
+## To do
+
+- Autoclave water
+- Do we enough M9
+- Find 10cm x 10cm petri dishes. Need ~ 48.
+- Check our KB
+- Make up some soft agar
+- Find scales to be used in the lab
+- Autoclave some metal spatulas to dispense soil
+
+## Actual methods
+
+- AIM TO SETUP THE EXPERIMENT ON THURSDAY 19TH OCTOBER 2017!!!
+
+### Tuesday 17th October
+
+- Set up 2 microcosms of SBW25 WT to then grow phage up in on Tuesday.
+
+### Wednesday 18th October
+
+- Grow up WT and LZ strains overnight (are we ok to use the WT and LZ ancestral strains from previous experiment?)
+- Grow up phage overnight
+- Make sure everything is ready to get going
+- Autoclave soil for a second time
+
+### Thursday 19th October
+
+- Add ~80g of soil (John Innes no. 2) to each microcosm
+- Put 10 mL of distilled water into each microcosm to maintain humidity throughout the experiment
+- Inoculate with 5 mL of _P. fluorescens_ - will need ~125 mL of each strain: lacZ and WT (can count numbers retrospectively to back calculate starting density)
+- Inoculate half with 5 mL of M9 + phage (can count phage to get initial density later)
+- Inoculate other half with 5 mL M9
+- Place at 28 ºC (Pedro kept his at 26 ºC)
+
+## Things to learn
+
+- How to isolate and count phage
+- How to do a soil wash
+- How to assay for coevolution
+
+### Specific methods
+
+#### Soil wash
+
+#### Phage isolation
+
