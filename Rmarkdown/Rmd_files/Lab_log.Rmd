@@ -1,0 +1,28 @@
+---
+title: "Lab Log"
+author: "Daniel Padfield"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+### 18/10/2017
+
+- Autoclaved the soil again
+- Autoclaved 1 L of DI millicule water
+- Autoclaved 1 L of 0.6% soft agar
+- Autoclaved a spoon to weigh out soil
+- Got some $SBW25\phi2$ from Floh. Around 1 mL at 7.26 x 10^8^.
+    - Grow up overnight
+    - Transfer 60 µl of bacteria and 10 µl of phage (around 7 x 10 ^6^ pfus) into 6 mL of KB agar
+    - Should give a concentration of around 10^8^ phage/mL
+    - Done this in triplicate
+- Grow up _lacZ_ and _WT_ strains overnight. Should give concentration of around ~10^8^ cells in 60 µl.
+  - Do these in triplicate
+  - Added 6 mL of frozen overnight culture from first experiment (18/08/2017 _lacZ_ and WT)
+  
+__Retrospectively work out density of the overnight stocks and phage__
+
+### 19/10/2017
+
+

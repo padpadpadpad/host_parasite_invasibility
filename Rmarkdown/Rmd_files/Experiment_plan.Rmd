@@ -2,16 +2,16 @@
 title: "Phage and bacteria coevolution experiment"
 author: "Daniel Padfield"
 output:
+  pdf_document: default
   html_document:
     self_contained: yes
-  pdf_document: default
 ---
 
 ## Introduction
 
 Host-parasite antagonistic coevolution, where host defence and parasite counter-defence evolve reciprocally, is theoretically crucial to a range of ecological and evolutionary processes (e.g. population dynamics, extinction risk, the evolution of speciation, diversity pathogen virulence). One area that has received less attention is the how host-parasite coevolution impacts invasibility.
 
-Coevolution of host and parasite has the potential to increase or decrease invasibility, depending on the mode of selection, whether the invader or host (or both) have a coevolved parasite. Here, we use coevolution between the model bacterium _Pseudomonas fluorescens_ (SBW25) and bacteriophage  $SBW25\phi2$ to test for the impact of host-parasite coevolution on susceptibility to, and potential for, invasion. Previous work (Gomez _et al._ 2011) has found fluctuating selection to occur in this soil system using the same focal species, where bacteria were more resistant to their contemporary phage and the phage had lower infectivity to their contemporary bacteria. Such dynamics could cause a reduction in invasibility, because the invader would be susceptible to the phage and thus their fitness could be reduced in the short-term. In the instances where the invader brings the phage, these predictions would be reversed.
+Coevolution of host and parasite has the potential to increase or decrease invasibility, depending on the mode of selection, whether the invader or host (or both) have a coevolved parasite. Here, we use coevolution between the model bacterium _Pseudomonas fluorescens_ ($SBW25$) and bacteriophage  $SBW25\phi2$ to test for the impact of host-parasite coevolution on susceptibility to, and potential for, invasion. Previous work (Gomez _et al._ 2011) has found fluctuating selection to occur in this soil system using the same focal species, where bacteria were more resistant to their contemporary phage and the phage had lower infectivity to their contemporary bacteria. Such dynamics could cause a reduction in invasibility, because the invader would be susceptible to the phage and thus their fitness could be reduced in the short-term. In the instances where the invader brings the phage, these predictions would be reversed.
 
 ## Experimental setup
 
@@ -39,7 +39,7 @@ Once we have identified fluctuating evolutionary dynamics (hopefully ~12-14 days
 
 ### Wednesday 18th October
 
-- Grow up WT and LZ strains overnight (are we ok to use the WT and LZ ancestral strains from previous experiment?)
+- Grow up WT and LZ strains overnight (are we ok to use the WT and LZ ancestral strains from previous experiment?) - enough to start the experiment
 - Grow up phage overnight
 - Make sure everything is ready to get going
 - Autoclave soil for a second time
@@ -48,10 +48,15 @@ Once we have identified fluctuating evolutionary dynamics (hopefully ~12-14 days
 
 - Add ~80g of soil (John Innes no. 2) to each microcosm
 - Put 10 mL of distilled water into each microcosm to maintain humidity throughout the experiment
-- Inoculate with 5 mL of _P. fluorescens_ - will need ~125 mL of each strain: lacZ and WT (can count numbers retrospectively to back calculate starting density)
+- Inoculate with 5 mL of _P. fluorescens_ - will need ~125 mL of each strain: lacZ and WT (can count numbers retrospectively to back calculate starting density) to get a final volume of ~125 mL.
+    - Pedro had a _P. fluorescens_ concentration of ~2 x 10^8^ CFUs
 - Inoculate half with 5 mL of M9 + phage (can count phage to get initial density later)
+    - Pedro had a density of 5 x 10^6^ plaque forming units in 5 mL M9)
 - Inoculate other half with 5 mL M9
 - Place at 28 ºC (Pedro kept his at 26 ºC)
+- Plate some soil to check there is nothing growing in there to begin with
+- Try and isolate other phage from the soil
+- Freeze T~0~ samples of _lacZ_ and _WT_ strains, and a phage suspension in glycerol (final concentration 20%).
 
 ## Things to learn
 
@@ -63,5 +68,13 @@ Once we have identified fluctuating evolutionary dynamics (hopefully ~12-14 days
 
 #### Soil wash
 
+- Remove 2g of soil from the sample using a sterile spatula
+- Mix with 10 mL sterile M9 buffer and glass beads (size of beads?)
+- Vortex for 1 minute
+- Dilute resultant soil wash and plate on KB agar (with Xgal for _lacZ_ marked strain)
+
 #### Phage isolation
+
+- To isolate phage, a sample of each soil wash (how much?) was vortexed with 10% chloroform and centrifuged at 13000 r.p.m.
+- Plate the phage supernatant onto exponentially growing ancestral bacteria in 0.6% KB agar (soft agar) to enumerate plaque forming units
 
