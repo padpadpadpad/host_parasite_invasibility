@@ -19,10 +19,31 @@ output:
     - Done this in triplicate
 - Grow up _lacZ_ and _WT_ strains overnight. Should give concentration of around ~10^8^ cells in 60 µl.
   - Do these in triplicate
-  - Added 6 mL of frozen overnight culture from first experiment (18/08/2017 _lacZ_ and WT)
+  - Added 60 µL of frozen overnight culture from first experiment (18/08/2017 _lacZ_ and WT)
   
 __Retrospectively work out density of the overnight stocks and phage__
 
 ### 19/10/2017
 
-
+- Put 80g of soil into each 10cm x 10cm microcosm
+    - Used autoclaved spoon
+    - Placed scale in laminar flow hood (cleaned with ethanol before and after)
+- Placed 5 mL (~ 200 µl per microcosm) of _lacZ_ and WT into separate 12 mL centrifuge tubes
+    - Centrifuged for 15 minutes at max speed (~4500 r.p.m) on big centrifuge
+    - Want to get to 5 mL per microcosm for inoculating (~ 125 mL in total)
+    - Resuspended pellet into 2250 µl, vortexed and placed 620 µl, 620 µl and 810 µl into three different falcon tubes
+    - Filled these three falcon tubes up to 40 mL, 40 mL and 45 mL respectively
+        - This guaranteed the same concentration of sample in each falcon tube
+    - Placed 5 mL of _lacZ_ or WT strain into each microcosm
+    - Froze (-80 ºC) 900 µl of inoculate in 900 µl of glycerol (25% final concentration)
+- In the no phage treatments, we added 5 mL of M9
+- Added 5 mL  of phage to phage treatments
+    - Place 900 µl of bacteria + phage into three centrifuge tubes
+    - Add 100 µl (10%) chloroform into each tube (under fume hood)
+    - Vortex rigorously
+    - Centrifuge for 2-3 minutes at full speed (minifuge)
+    - Take out supernatant and placed in a single tube (took out 800 µl of each tube)
+    - Put 40 mL of M9 into 6 tubes
+    - Added 400 µl into each tube (~100 fold dilution from the initial stock)
+    - Shake each tube and add 5 mL into each microcosm
+- Place microcosms into the 26 ºC incubator (Level 1 incubator room)
