@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### 18/10/2017
@@ -47,3 +47,9 @@ __Retrospectively work out density of the overnight stocks and phage__
     - Added 400 µl into each tube (~100 fold dilution from the initial stock)
     - Shake each tube and add 5 mL into each microcosm
 - Place microcosms into the 26 ºC incubator (Level 1 incubator room)
+
+### 22/10/2017
+
+- setup 2 WT microcosms up for spot assays of phage
+- used a crystal from T~0~
+- autoclaved 2 L of KB agar. Put in small autoclave
