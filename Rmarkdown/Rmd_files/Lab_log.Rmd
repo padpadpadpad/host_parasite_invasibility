@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ### 18/10/2017
@@ -53,3 +53,12 @@ __Retrospectively work out density of the overnight stocks and phage__
 - setup 2 WT microcosms up for spot assays of phage
 - used a crystal from T~0~
 - autoclaved 2 L of KB agar. Put in small autoclave
+
+### 23/10/2017
+
+- phage spot test 10~-1~ to 10~-8~
+    - Floh's phage (7.26 x 10^8^)
+    - Phage we inoculated with
+    - Extra phage tube (should have lower concentration)
+    - blank plate
+- plated T~0~ of WT and _lacZ_ _P. fluorescens_
