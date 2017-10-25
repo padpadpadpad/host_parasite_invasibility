@@ -62,3 +62,17 @@ __Retrospectively work out density of the overnight stocks and phage__
     - Extra phage tube (should have lower concentration)
     - blank plate
 - plated T~0~ of WT and _lacZ_ _P. fluorescens_
+
+### 24/10/2017
+
+- phage spot test was no good (streaky)
+- likely that we did not wait long enough for the spot to dry
+- set up more T~0~ bacteria overnight
+
+### 25/10/2017
+
+- phage spot assay again
+- plating only 4 spots per plate instead of 8
+- counted T~0~ counts (plated 30 µl)
+    - _lacZ_ @ 10^-4^: 18
+    - WT @ 10^-4^: 64
