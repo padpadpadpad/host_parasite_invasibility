@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### 18/10/2017
@@ -76,3 +76,24 @@ __Retrospectively work out density of the overnight stocks and phage__
 - counted T~0~ counts (plated 30 µl)
     - _lacZ_ @ 10^-4^: 18
     - WT @ 10^-4^: 64
+    
+### 26/10/2017
+
+- check phage spot, 10^-6^ looks to be the correct dilution
+- further counts are done by putting the 10 µl phage into the 1% bacteria soft agar
+    - vortex and plate
+    - leave to dry
+    - incubate overnight
+    
+### 30/10/2017
+
+- grow up some T~0~ bacteria overnight
+
+### 31/10/2017
+
+- serial dilution of phage to 10^-6^
+- 50 µl bacteria + 10 µl phage + 5 ml soft agar
+    - vortex
+    - pour
+- set samples up for inoculated phage, floh's phage stock and our phage dregs (each in triplicate)
+- in 28 ºC incubator overnight
