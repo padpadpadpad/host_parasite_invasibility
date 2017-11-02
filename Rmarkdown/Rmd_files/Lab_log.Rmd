@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### 18/10/2017
@@ -99,6 +99,33 @@ __Retrospectively work out density of the overnight stocks and phage__
 - in 28 ºC incubator overnight
 
 ### 01/11/2017
+
+- looked at phage spots (10^-6^ dilution)
+- calculated how many phage are there
+
+$$ Phage\ concentration = \frac{number\ of\ plaques}{dilution\ factor\ \times\ volume added}$$
+
+Volume added is almost always 10 µl. I wrote a mini function to calculate this
+
+```{r, 20171102_phage}
+d <- data.frame(dregs = c(3,4,6), phage = c(6,2,4))
+
+# back calculate number in there
+# PFU/ml = plaque number / (dil fac * volume added)
+plaq_num <- function(x, dilfac){return(x/(dilfac*0.01))}
+
+d <- dplyr::mutate_at(d, c('dregs', 'phage'), plaq_num, dilfac = 10^-6)
+
+knitr::kable(d)
+
+# concentration of phage added
+mean(d$phage)
+
+# concentration of other phage
+mean(d$dregs)
+```
+
+
 
 - sampled all soil microcosms (after 13 days)
     - ~2g of soil into a 12 mL centrifuge tube (with ~ 7 glass beads)

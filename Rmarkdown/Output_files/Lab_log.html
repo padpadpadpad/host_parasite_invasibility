@@ -252,6 +252,49 @@ $(document).ready(function () {
 <div id="section-9" class="section level3">
 <h3>01/11/2017</h3>
 <ul>
+<li>looked at phage spots (10<sup>-6</sup> dilution)</li>
+<li>calculated how many phage are there</li>
+</ul>
+<p><span class="math display">\[ Phage\ concentration = \frac{number\ of\ plaques}{dilution\ factor\ \times\ volume added}\]</span></p>
+<p>Volume added is almost always 10 µl. I wrote a mini function to calculate this</p>
+<pre class="r"><code>d &lt;- data.frame(dregs = c(3,4,6), phage = c(6,2,4))
+
+# back calculate number in there
+# PFU/ml = plaque number / (dil fac * volume added)
+plaq_num &lt;- function(x, dilfac){return(x/(dilfac*0.01))}
+
+d &lt;- dplyr::mutate_at(d, c('dregs', 'phage'), plaq_num, dilfac = 10^-6)
+
+knitr::kable(d)</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="right">dregs</th>
+<th align="right">phage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">3e+08</td>
+<td align="right">6e+08</td>
+</tr>
+<tr class="even">
+<td align="right">4e+08</td>
+<td align="right">2e+08</td>
+</tr>
+<tr class="odd">
+<td align="right">6e+08</td>
+<td align="right">4e+08</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code># concentration of phage added
+mean(d$phage)</code></pre>
+<pre><code>## [1] 4e+08</code></pre>
+<pre class="r"><code># concentration of other phage
+mean(d$dregs)</code></pre>
+<pre><code>## [1] 433333333</code></pre>
+<ul>
 <li>sampled all soil microcosms (after 13 days)
 <ul>
 <li>~2g of soil into a 12 mL centrifuge tube (with ~ 7 glass beads)
