@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ### 18/10/2017
@@ -97,3 +97,47 @@ __Retrospectively work out density of the overnight stocks and phage__
     - pour
 - set samples up for inoculated phage, floh's phage stock and our phage dregs (each in triplicate)
 - in 28 ºC incubator overnight
+
+### 01/11/2017
+
+- sampled all soil microcosms (after 13 days)
+    - ~2g of soil into a 12 mL centrifuge tube (with ~ 7 glass beads)
+        - sample using the big end of a 5 mL pipette and weigh on scales under hood
+    - add 10 mL of M9
+    - vortex for ~ 1 minute
+    - add 900 µl of sample to 900 µl of 50% glycerol and freeze at -80 ºC (bacteria + phage)
+    - make phage suspension for each tube
+        - add 900 µl of sample to centrifuge tube
+        - add 100 µl of chloroform under fume hood
+        - vortex
+        - centrifuge at full speed for 4 minutes
+        - put supernatant into separate tube 
+            - samples 1-17 800 µl, samples 18-48 750 µl
+- names of samples
+  - 1-12: WT no phage
+  - 13-24: _lacZ_ no phage
+  - 25-36: WT + phage
+  - 37-48: _lacZ_ + phage
+- Autoclaved things
+    - 2 empty 500 mL bottles
+    - M9 salts x10 (500 mL)
+        - converted the weight of $Na_{2}HPO_{4}$ to the amount of $Na_{2}HPO_{4}.7H_{2}O$ needed.
+        - MW of $Na_{2}HPO_{4}.7H_{2}O$ is 268. MW of $Na_{2}HPO_{4}$ is 142. 
+        - to convert from weight of $Na_{2}HPO_{4}$ to $Na_{2}HPO_{4}.7H_{2}O$ is to multiply by $\frac{268}{142}$
+    - 1 L of DI water
+    - 2 L hard agar
+    - centrifuge tubes.
+    
+```{r, 20171102_weight, echo = FALSE}
+d <- data.frame(sample = c(1:48), weight_g = c(2.1, 2.0, 1.9, 2.0, 2.0, 2.0, 2.0, 2.0, 2.1, 1.9, 2.2, 2.1, 2.1, 1.9, 2.2, 2.2, 1.9, 2.2, 2.0, 2.3, 2.3, 2.2, 1.9, 2.1, 2.1, 2.2, 1.9, 2.0, 2.2, 2.3, 2.0, 2.2, 2.2, 2.2, 2.0, 2.0, 2.3, 1.9, 2.2, 1.9, 2.2, 2.0, 2.0, 2.2, 2.1, 2.2, 2.2, 2.1))
+
+knitr::kable(d)
+```
+        
+### 02/11/2017
+
+- set up phage spot tests of all soil phage suspensions against ancestral WT on soft agar.
+    - just checking for presence/absence of phage
+    - 5 mL per plate, 4 spots per plate, 12 spots in total
+    - important to let the spot dry before moving
+- poured plates (all Xgal)
