@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ### 18/10/2017
@@ -168,3 +168,9 @@ knitr::kable(d)
     - 5 mL per plate, 4 spots per plate, 12 spots in total
     - important to let the spot dry before moving
 - poured plates (all Xgal)
+
+### 03/11/2017
+
+- all no phage treatments had no phage and all phage treatments had phage
+- plated all the bacteria + phage treatments at 10^-4^ and 10^-5^ (30 µl)
+    - left on bench over te weekend
