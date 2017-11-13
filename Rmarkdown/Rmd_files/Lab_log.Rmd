@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### 18/10/2017
@@ -173,4 +173,25 @@ knitr::kable(d)
 
 - all no phage treatments had no phage and all phage treatments had phage
 - plated all the bacteria + phage treatments at 10^-4^ and 10^-5^ (30 µl)
-    - left on bench over te weekend
+    - left on bench over the weekend
+    
+### 06/11/2017
+
+- counted all the plates
+    - all still had bacteria in and were not obviously contaminated (Yays)
+- picked 20 colonies from each sample and placed in KB media in 48 well plates
+    - 750 µl of KB media
+    - used matchsticks
+- grown statically for 2 days at 26 ºC
+
+### 08/11/2017
+
+- put 500 µl of 50% glycerol into each well (final concentration 20%)
+- froze in the -80 ºC
+- autoclaved
+    - 2x 800 mL hard agar
+    - 2x 800 mL soft agar
+
+### 13/11/2017
+
+- prep for sampling soil microcosms tomorrow. Labelled samples. Booked downstairs hood with power access.
