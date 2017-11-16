@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ### 18/10/2017
@@ -195,3 +195,30 @@ knitr::kable(d)
 ### 13/11/2017
 
 - prep for sampling soil microcosms tomorrow. Labelled samples. Booked downstairs hood with power access.
+
+### 14/11/2017
+
+- sampled all 48 microcosms
+- froze 900 µl of bacteria + phage in 900 µl of 50% glycerol (final concentration equals 25%)
+- phage sample in fridge
+    - 1-12: 750 µl
+    - 13-48: 600 µl
+- setup soft agar plates of ancestral bacteria and did phage spot assays
+
+```{r, 20171114_weight, echo = FALSE}
+d <- data.frame(sample = c(1:48), weight_g = c(2.2, 2.2, 2.3, 2.1, 2.2, 2.1, 2.1, 2.0, 2.0 ,2.0, 2.2, 2.1, 2.0, 2.2, 2.2, 2.0, 2.1, 2.3, 2.0, 2.0, 2.1, 2.0, 2.1, 2.2, 2.0, 2.0, 2.2, 2.0, 2.0, 2.0, 2.3, 2.1, 2.2, 2.2, 2.1, 2.1, 2.1, 2.3, 2.0, 2.0, 2.3, 2.0, 2.2, 2.2, 2.0, 2.2, 2.0, 2.0))
+
+knitr::kable(d)
+```
+
+### 15/11/2017
+
+- all phageless samples are still phageless, all phage samples still contain phage
+
+### 16/11/2017
+
+- plated all T~2~ samples
+    - 10^-3^ and 10^-4^
+    - 30 µl of on plate
+- __used undiluted M9 x10 on Tuesday!!!__
+- made up 400 mL of M9 salts x10 for autoclave    
