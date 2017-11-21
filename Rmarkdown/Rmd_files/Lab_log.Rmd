@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### 18/10/2017
@@ -222,3 +222,21 @@ knitr::kable(d)
     - 30 µl of on plate
 - __used undiluted M9 x10 on Tuesday!!!__
 - made up 400 mL of M9 salts x10 for autoclave    
+
+### 20/11/2017
+
+- counted plates.
+    - Most are ok at 10^-3^. Counts were much lower. Want to be certain that the reduction in abundance is not due to using concentrated M9.
+- full sample again, T~3~.
+    - Took 700 µL samples of phage
+- setup overnight stock of ancestral bacteria
+- autoclaved 2400 mL of KB agar
+
+### 21/11/2017
+
+- plated all 48 T~3~ samples at 10^-2^ and 10^-3^
+- re-plated all T~2~ replicates that did not contain > 20 colonies at 10^-2^
+- poured ~150 Xgal plates. Stored in the cold room
+- autoclaved two boxes of ependorfs
+- put beads in Virkon to clean
+- phage spot assay on phage extractions from T~3~. Used ancestral bacteria as the bacterial lawn
