@@ -232,6 +232,12 @@ knitr::kable(d)
 - setup overnight stock of ancestral bacteria
 - autoclaved 2400 mL of KB agar
 
+```{r, 20171120_weight, echo = FALSE}
+d <- data.frame(sample = c(1:48), weight_g = c(2, 2, 1.9, 2.3, 2, 2.2, 2, 2.3, 2, 2.1, 2.2, 2.1, 2, 2.1, 2, 2.3, 2.3, 2.1, 2.2, 2, 2.1, 2.1, 2.1, 2.2, 2.1, 2, 2.2, 2.1, 2.1, 2, 2.2, 2, 2.1, 2.1, 2.2, 2.2, 2, 2.1, 2.1, 2, 2.1, 2.2, 2, 2.3, 2.2, 2.1, 2.1, 2))
+
+knitr::kable(d)
+```
+
 ### 21/11/2017
 
 - plated all 48 T~3~ samples at 10^-2^ and 10^-3^
@@ -240,3 +246,22 @@ knitr::kable(d)
 - autoclaved two boxes of ependorfs
 - put beads in Virkon to clean
 - phage spot assay on phage extractions from T~3~. Used ancestral bacteria as the bacterial lawn
+
+### 23/11/2017
+
+- all T~3~ samples were ok (> 30 colonies at 10^-3^) apart from 12 and 37
+    - 12 an 37 were re-plated at 10^0^ and 10^-1^
+- picked 20 colonies from each sample and placed in KB media in 48 well plates
+    - 750 µl of KB media
+    - used matchsticks
+- grown statically for 2 days at 26 ºC
+- Checked phage spot assays
+
+![__Figure 1. phage spot assays are on point__](../../pictures/20171122_phagespot.jpg)
+
+### 25/11/2017
+
+- picked colonies from 12 (10^0^) and 37 (10^-1^)
+    - incubate for two days
+- put 500 µl of 50% glycerol into each well of the other replciates that had been growing for two days (final concentration 20%)
+- froze in the -80 ºC
