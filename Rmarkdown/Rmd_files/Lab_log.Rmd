@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ### 18/10/2017
@@ -265,3 +265,39 @@ knitr::kable(d)
     - incubate for two days
 - put 500 µl of 50% glycerol into each well of the other replciates that had been growing for two days (final concentration 20%)
 - froze in the -80 ºC
+
+### 27/11/2017
+
+- autoclaved 4L of KB hard agar
+
+### 28/11/2017
+
+- poured 2L of KB agar into square plates (Xgal)
+- put 180 µl of KB media into 96 well plates
+- grew T~F~ clones up overnight from frozen isolates (phage present microcosms only, 25-48)
+    - placed in 28 ºC incubator
+
+### 29/11/2017
+
+- look at coevolution of phage and host using streak plates
+- streak each clone against contemporary phage, ancestral phage, a paired WT phage and a paired _lacZ_ phage
+- spot 30 µl of each phage onto a square plate, let run down the plate then let it dry
+- 1 plate per microcosm
+- streak clones across the line of phage using matchsticks and the template
+
+### 30/11/2017
+
+- looked like it didnt work
+- everything grew everywhere, even the controls
+- set up an ancestral overnight
+
+### 01/12/2017
+
+- set up some phage spot assays of random phage against the ancestral phage
+- did some streak assays
+
+### 02/12/2017
+
+- phage streak worked
+- all phage spots worked
+- __current hypothesis of problem is that we did not mix the phage properly__
