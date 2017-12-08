@@ -301,3 +301,16 @@ knitr::kable(d)
 - phage streak worked
 - all phage spots worked
 - __current hypothesis of problem is that we did not mix the phage properly__
+
+### 05/12/2017
+
+- grew up all clones overnight
+- poured lots of square plates
+
+### 06/12/2017
+
+- did another phage streak day
+
+### 08/12/2017
+
+- counted the phage streaks
