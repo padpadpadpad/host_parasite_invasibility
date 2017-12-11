@@ -313,4 +313,21 @@ knitr::kable(d)
 
 ### 08/12/2017
 
-- counted the phage streaks
+- counted the phage streaks. Processed these but they do not look as expected.
+- autoclaved 4 L of hard KB agar
+- autoclaved 1 L of KB media
+
+### 10/12/2017
+
+- setup isolated clones overnight in 180 µl of KB media
+- poured many square plates
+- amplifying T~F~ phage in ancestral WT overnight
+    - 60 µl of ancestor and 10 µl phage
+- setup some phage spot assays (P.27, P.38, P.41)
+    - spotted 10 µl from 10^-1^ to 10^--8^
+
+### 11/12/2017
+
+- Unfortunately some of the lids of the phage amplifications had come off
+- Reset these today
+- Plated all the phage with ancestral bacteria at 10^-3^
