@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### 18/10/2017
@@ -331,3 +331,15 @@ knitr::kable(d)
 - Unfortunately some of the lids of the phage amplifications had come off
 - Reset these today
 - Plated all the phage with ancestral bacteria at 10^-3^
+
+### 12/12/2017
+
+- Counted phage
+
+### 13/12/2017
+
+- Did phage streaks using comb
+
+### 14/12/2017
+
+- Marked phage streaks
