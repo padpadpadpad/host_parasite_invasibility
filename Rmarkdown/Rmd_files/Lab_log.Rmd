@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ### 18/10/2017
@@ -343,3 +343,33 @@ knitr::kable(d)
 ### 14/12/2017
 
 - Marked phage streaks
+
+### 03/01/2018
+
+__State of play__
+- It is worrying that there is not fluctuating selection. That there is no variation in resistance across phages
+- Resistance to ancestral phage by communities without phage has never been observed
+
+__Options__
+- Do phage spot tests on some replicates to see if same results hold (whether it is the test)
+- Re-isolate some replicates
+- Test resistance of ancestral clones
+- Test presence of phage in no phage treatments with larger phage volume
+- Test resistance after T~1~
+
+- Am going to use 4 communities for the tests here.
+    - 1, 10 (controls that had resistance)
+    - 37, 42 communities that had resistance
+- Grow each clone up overnight in 200 µl of KB media
+- Grow Ancestral clone up overnight in KB media
+
+### 04/01/2017
+
+- Phage spot tests for each of 4 phage on each clone
+    - 20 clones per replicate
+    - 80 plates
+    - for controls do ancestral phage, their own phage (should be 0) and two other random phages (37 and 42)
+- Plate out ancestral to isolate phage
+- Re-plate phage from T~2~ 
+    - 1, 10, 42 (10^-2^ and 10^-3^)
+    - 37 (10^-1^ and 10^-2^)
