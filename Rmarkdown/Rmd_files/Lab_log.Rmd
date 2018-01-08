@@ -2,8 +2,8 @@
 title: "Lab Log"
 author: "Daniel Padfield"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### 18/10/2017
@@ -365,11 +365,15 @@ __Options__
 
 ### 04/01/2017
 
-- Phage spot tests for each of 4 phage on each clone
-    - 20 clones per replicate
-    - 80 plates
-    - for controls do ancestral phage, their own phage (should be 0) and two other random phages (37 and 42)
-- Plate out ancestral to isolate phage
-- Re-plate phage from T~2~ 
-    - 1, 10, 42 (10^-2^ and 10^-3^)
-    - 37 (10^-1^ and 10^-2^)
+- Phage spot tests on community 1, 10, 37 and 42
+- 1 and 10 are controls that showed resistance. Phage these are against are ancestral and their own phage
+- 37 went against ancestral phage, contemporary phage and phage 38 and phage 25
+- 42 went against ancestral phage, contemporary phage and phage 41 and phage 30
+- 7.5 µl spots were used
+- put in all ~200 µl of culture into 5 mL of soft agar
+- placed at 28 ºC overnight
+- looked at whether there is phage in the controls just at low concentration
+    - put 100 µl of bacteria (WT) and 100 µl of "phage" (1 and 10) in 5 mL of soft agar
+- plated WT (10^-4^ and 10-^-5^)
+- plated 1, 10, 37 and 42 to re-isolate clones (from T~2~)
+- plated 30 µl as always
