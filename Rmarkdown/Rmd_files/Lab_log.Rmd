@@ -377,3 +377,62 @@ __Options__
 - plated WT (10^-4^ and 10-^-5^)
 - plated 1, 10, 37 and 42 to re-isolate clones (from T~2~)
 - plated 30 µl as always
+
+### 05/01/2018
+
+- Lots of the phage spots were not dense enough (in terms of bacteria)
+- Was able to identify when samples were susceptible but more difficult to identify resistance
+- For the WT ancestor and the 1 and 10 "phage" plates, there was only one phage spot on the 10 plate. There was no spot on the 1 plate. Think the spot on 10 could just be contamination but not sure
+- Autoclaved KB media, soft agar and hard agar
+
+### 06/01/2018
+
+- Picked 20 clones for each community of WT ancestor, 1, 10, 37 and 42. Grown at 26 ºC in 120 µl of KB media
+
+### 07/01/2018
+
+- Poured plates
+- Labelled everything ready for tomorrow
+- Grew up communities overnight (1, 10, 37, 42) in 6 mL of KB media @ 180 rpm @ 28 ºC
+
+### 08/01/2018
+
+- Added 100 µl of 50% glycerol to isolates in 96 well plate and placed in the -80 ºC freezer
+- Did the phage spot assays again, using 200 µl of culture per 5 mL of soft agar.
+- Some flasks are not that dense but should be enough volume for most for a nice bacterial lawn
+
+### 09/01/2018
+
+- No difference between ancestral phages, between the bottle previously used and one previously kept separate
+- Controls:
+    - 1 had a resistance proportion of 0.64 (9 resistant, 5 susceptible, 5 of the replicates were no good, out of a total of 19)
+    - 10 had no resistance (20 susceptible)
+- Communities with phage
+    - 37 had complete resistance (17 resistant, 3 replicates no good)
+    - 42 had a resistance proportion of 0.1875 (3 resistant, 13 susceptible, 4 no good)
+
+These are not dissimilar to the results pre-Christmas using the phage streak assays
+
+### 10/01/2017
+
+- Grew up new isolates overnight in KB media
+
+### 11/01/2017
+
+- Phage streak assay again
+- Ancestral isolates: 0 resistance
+- 1 and 10 isolates (controls): 1/20 resistant
+- 37: ~6 resistant
+- 42: ~8 resistant
+
+Key is that for 37 and 42, if they have resistance for their contemporary phage, they are also resistant to all other phages including the ancestral phage. This goes against the Science paper by Pedro and Stineke's previous experiment.
+
+Consequently I do not believe it is worth pursuing this experiment. SIGH.
+
+__Next steps__
+
+- Grow up new isolates overnight in media and phage streak them
+- Do I need more phage (do this anyway). Grow ancestral up overnight
+- Check T~1~ for the difference in resistance
+- Check more of the controls for resistance
+- Pour some extra square plates
